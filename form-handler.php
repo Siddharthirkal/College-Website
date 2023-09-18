@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_form = 'info@tutorialspro.com';
+$email_form = 'hubballicollegeofbca@gmail.com';
 
 $email_subject = 'New Form Submission';
 
@@ -21,6 +21,6 @@ $headers .= "Reply-To: $visitor_email \r\n";
 
 mail($to,$email_subject,$email_body,$headers);
 
-header("Location: contact.html");
+header("Location: contact.html.html");
 
 ?>
